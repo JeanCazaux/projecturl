@@ -1,0 +1,19 @@
+{
+  "name": "projecturl",
+  "version": "1.0.0",
+  "description": "Etude de cas",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "serve": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "jest": "^27.2.1"
+  }
+}
