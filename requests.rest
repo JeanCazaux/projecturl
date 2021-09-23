@@ -1,0 +1,25 @@
+POST http://localhost:9098/login
+Content-Type: application/json
+
+{
+  "username": "Jean"
+}
+
+###
+
+POST http://localhost:9098/api/shorturl
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkplYW4iLCJpYXQiOjE2MzI0MDE2MTJ9.5XVDv4_A2hYZmWtiJF-GwEqV7nC5WY99M6JQwkZT5xo
+Content-Type: application/json
+
+{
+  "url": "https://www.google.com/"
+}
+
+###
+
+GET http://localhost:9098/api/shorturl/4hxNeK
+Content-Type: application/json
+
+###
+
+GET http://localhost:9098/api/shorturl/analytics/
